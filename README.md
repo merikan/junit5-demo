@@ -1,10 +1,12 @@
-#Intro
+# Intro
 This is a small Spring Boot application to be used as an example 
 when migrating fromJunit 4 to Junit 5
 
 You can find more information in Junit documentation chapter [Migrating from JUnit 4](https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4)
 
-#Migrate
+The solution can be found in the [solution](solution/README.MD) directory 
+
+# Migrate
 
 To migrate from Junit 4 to Junit 5 it takes a lot of repetitive work. So to let the computer 
 work instead we use the `sed` command. I have used this approach in several large projects and 
@@ -152,6 +154,9 @@ find . -type f -name '*.java' -exec sed -E -i '' 's/import org.junit\.\*;/import
 
 ``` 
 
+## License
+
+This project is licensed under the terms of the [Apache License, Version 2.0](LICENSE).
 
 
 
