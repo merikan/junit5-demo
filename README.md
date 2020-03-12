@@ -137,7 +137,7 @@ why I use the `-i` switch, for example.
    ```
 1. Fix the rest manually
 Our our computer have done the work and it's time to do some manual work. Compile and run all tests and see if you have any errors.
-For example, `@Test (expected = …)` no longer exists and you need to use `assertThrows (…)`` 
+For example, `@Test (expected = …)` no longer exists and you need to use `assertThrows (…)` 
 
 ## A one-liner, "not for the faint-hearted"
 If you want to run all steps with one command.
