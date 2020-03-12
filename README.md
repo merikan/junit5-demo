@@ -15,8 +15,8 @@ it has helped me a lot.
 The best thing is to take it in small steps and to see that you get the desired 
 result. I also have a one-liner at the bottom that you can use if you are in a hurry.
 
-I have run this on macos and where the custom command differs compared to linux. That's 
-why I use the -i switch, for example.
+I have run this on macos and where the `sed` command differs compared to linux. That's 
+why I use the `-i` switch, for example.
 
 ### Step by step
 
